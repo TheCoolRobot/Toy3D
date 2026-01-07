@@ -37,35 +37,35 @@ export default function Toy3D() {
                     <div className="flex space-x-4 md:space-x-6">
                         <button
                             onClick={() => setCurrentPage('home')}
-                            className={`flex items-center gap-2 text-sm transition ${currentPage === 'home' ? 'text-white' : 'text-white/60 hover:text-white'}`}
+                            className={`flex items-center gap-2 text-sm transition bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400${currentPage === 'home' ? 'text-white' : 'text-white/60 hover:text-white'}`}
                         >
                             <Home className="w-4 h-4" />
                             <span className="hidden sm:inline">Home</span>
                         </button>
                         <button
                             onClick={() => setCurrentPage('models')}
-                            className={`flex items-center gap-2 text-sm transition ${currentPage === 'models' ? 'text-white' : 'text-white/60 hover:text-white'}`}
+                            className={`flex items-center gap-2 text-sm transition bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400 ${currentPage === 'models' ? 'text-white' : 'text-white/60 hover:text-white'}`}
                         >
                             <Box className="w-4 h-4" />
                             <span className="hidden sm:inline">Models</span>
                         </button>
                         <button
                             onClick={() => setCurrentPage('colors')}
-                            className={`flex items-center gap-2 text-sm transition ${currentPage === 'colors' ? 'text-white' : 'text-white/60 hover:text-white'}`}
+                            className={`flex items-center gap-2 text-sm transition bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400${currentPage === 'colors' ? 'text-white' : 'text-white/60 hover:text-white'}`}
                         >
                             <Palette className="w-4 h-4" />
                             <span className="hidden sm:inline">Colors</span>
                         </button>
                         <button
                             onClick={() => setCurrentPage('pla')}
-                            className={`flex items-center gap-2 text-sm transition ${currentPage === 'pla' ? 'text-white' : 'text-white/60 hover:text-white'}`}
+                            className={`flex items-center gap-2 text-sm transition bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400${currentPage === 'pla' ? 'text-white' : 'text-white/60 hover:text-white'}`}
                         >
                             <Leaf className="w-4 h-4" />
                             <span className="hidden sm:inline">PLA</span>
                         </button>
                         <button
                             onClick={() => setCurrentPage('custom')}
-                            className={`flex items-center gap-2 text-sm transition ${currentPage === 'custom' ? 'text-white' : 'text-white/60 hover:text-white'}`}
+                            className={`flex items-center gap-2 text-sm transition bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400${currentPage === 'custom' ? 'text-white' : 'text-white/60 hover:text-white'}`}
                         >
                             <Sparkles className="w-4 h-4" />
                             <span className="hidden sm:inline">Custom</span>
