@@ -31,7 +31,7 @@ export default function Toy3D() {
                         <img
                             src="/assets/logo.png"
                             alt="Toy3D Logo"
-                            className="h-10 w-auto object-contain"
+                            className="h-30 w-auto object-contain"
                         />
                     </div>
                     <div className="flex space-x-4 md:space-x-6">
