@@ -84,7 +84,7 @@ export default function Toy3D() {
                         <img
                             src="/assets/Toy3DHomepage.jpg"
                             alt="Toy3D"
-                            className="w-full max-w-4xl mx-auto h-auto object-contain rounded-full"
+                            className="w-full max-w-4xl mx-auto h-auto object-contain rounded-full border-radius:8 border-white/20 shadow-lg"
                             style={{
                                 animation: 'fadeInScale 1.5s ease-out'
                             }}
