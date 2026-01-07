@@ -28,9 +28,11 @@ export default function Toy3D() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between items-center h-16">
                     <div className="cursor-pointer" onClick={() => setCurrentPage('home')}>
-                        <h1 className="text-2xl font-bold text-white">
-                            Toy3D
-                        </h1>
+                        <img
+                            src="/assets/logo.png"
+                            alt="Toy3D Logo"
+                            className="h-10 w-auto object-contain"
+                        />
                     </div>
                     <div className="flex space-x-4 md:space-x-6">
                         <button
