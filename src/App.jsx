@@ -29,7 +29,7 @@ export default function Toy3D() {
                 <div className="flex justify-between items-center h-16">
                     <div className="cursor-pointer" onClick={() => setCurrentPage('home')}>
                         <img
-                            src="assets/Toy3DHomepage.jpg"
+                            src="../public/assets/Toy3DHomepage.jpg"
                             alt="Toy3D Logo"
                             className="h-10 w-auto object-contain"
                         />
@@ -82,7 +82,7 @@ export default function Toy3D() {
                 <div className="max-w-6xl mx-auto text-center">
                     <div className="mb-12">
                         <img
-                            src="assets/Toy3DHomepage.jpg"
+                            src="../public/assets/Toy3DHomepage.jpg"
                             alt="Toy3D"
                             className="w-full max-w-4xl mx-auto h-auto object-contain"
                             style={{
