@@ -29,9 +29,9 @@ export default function Toy3D() {
                 <div className="flex justify-between items-center h-16">
                     <div className="cursor-pointer" onClick={() => setCurrentPage('home')}>
                         <img
-                            src="/assets/logo.png"
+                            src="/assets/logofortabimage.png"
                             alt="Toy3D Logo"
-                            className="h-30 w-auto object-contain"
+                            className="h-20 w-auto object-contain"
                         />
                     </div>
                     <div className="flex space-x-4 md:space-x-6">
