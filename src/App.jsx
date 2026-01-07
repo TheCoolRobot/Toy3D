@@ -31,9 +31,10 @@ export default function Toy3D() {
                         <img
                             src="/assets/logofortabimage.png"
                             alt="Toy3D Logo"
-                            className="h-20 w-auto object-contain"
+                            className="h-15 w-auto object-contain"
                         />
                     </div>
+                    <div className="flex justify-end items-center h-16 text-white font-extrabold" onClick={() => setCurrentPage('home')}>Toy3D</div>
                     <div className="flex space-x-4 md:space-x-6">
                         <button
                             onClick={() => setCurrentPage('home')}
